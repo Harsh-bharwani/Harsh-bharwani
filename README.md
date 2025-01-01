@@ -12,4 +12,4 @@ I'm Harsh Bharwani, a passionate developer and college student exploring the int
 - Interests: Data Structures, Algorithms, Web Development
 
 ## 🚀 Projects
-- [Codeforces Problem Solutions]([https://github.com/your-repo](https://github.com/Harsh-bharwani/competitive-programming])
+- [Codeforces Problem Solutions]([https://github.com/Harsh-bharwani/Codeforces])
