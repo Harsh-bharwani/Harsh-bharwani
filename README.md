@@ -2,7 +2,7 @@
 I'm Harsh Bharwani, a passionate developer and college student exploring the intersection of innovation and tech.
 
 - 🌱 Currently enhancing my development and competitive programming.
-- 📹 Sharing my personal life and college experiences on [YouTube](https://youtube.com/harsh-bharwani).
+- 📹 Sharing my personal life and college experiences on [YouTube](https://youtube.com/harsh_bharwani).
 - 💻 Open to collaborating on exciting projects.
 - ⚡ Fun Fact: I enjoy coding challenges as much as creating content!
 
