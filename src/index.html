@@ -3,90 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harsh Bharwani</title>
-    <link
-      rel="stylesheet"
-      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
-  </head>
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    header {
-      background-color: black;
-      color: white;
-    }
-    ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-    }
-    li {
-      margin-right: 30px;
-      border: 1px solid black;
-      width: 100px;
-      height: 20px;
-      border-radius: 15px;
-      text-align: center;
-      padding: 5px;
-    }
-    nav a{
-        text-decoration: none;
+    <title>Harsh Bharwani</title>   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+     <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+      #header-container{
+        width: 98.5%;
+      }
+      #header-container{
+        position: sticky;
+      }
+      body {
+        background: linear-gradient(to right, white, rgb(0, 0, 0));
         color: white;
-    }
-    nav a:hover{
-        color: inherit;
-    }
-    li:hover {
-      background-color: aqua;
-      color: black;
-      cursor: pointer;
-    }
-    .logo {
-      font-size: 30px;
-      text-align: center;
-      font-family: brush script MT;
-      font-size: 35px;
-      /* background-color: yellow; */
-      /* border-radius: 50%; */
-      /* width: 40px; */
-    }
-    .container {
-      display: grid;
-      grid-template-columns: 5fr 7fr;
-      padding-top: 12px;
-      border: 1px solid black;
-    }
-    li b {
-      margin-left: 5px;
-    }
+      }
 
-  </style>
+
+    </style>
+
+  </head>
   <body>
     <header>
-      <div class="container">
-        <div class="logo">HB</div>
-        <div>
-          <nav>
-            <ul>
-              <li class="bi bi-youtube">
-                <b><a href="https://youtube.com/@harsh_bharwani?si=xj0JZ1Qh84hnRVdp" target="_blank">YouTube</a></b>
-              </li>
-              <li class="bi bi-linkedin"> <a href="https://www.linkedin.com/in/harshbharwani" target="_blank"><b>LinkedIn</a></b></a></li>
-              <li class="bi bi-code"><b><a href="https://codolio.com/profile/harshbharwani" target="_blank">Codolio</a></b></li>
-              <li class="bi bi-github"><b><a href="https://github.com/Harsh-bharwani" target="_blank">GitHub</a></b></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+      <div id="header-container" class="container-fluid bg-black text-white d-flex p-2 rounded-3 m-2">
+        <div id="logo" class="ms-5 me-5 w-75 fs-1 micro-5-charted-regular">Harsh Bharwani</div>
+        <nav class="container-fluid d-flex justify-content-around">
+          <ul class="d-flex justify-content-around w-75 list-unstyled align-items-center">
+            <li class="bi bi-house">
+              <b><a href="#home" target="_blank" >Home</a></b>
+            </li>
+            <li class="bi bi-person"> 
+              <b><a href="about" target="_blank">About</a></b>
+            </li>
+            <li class="bi bi-cast">
+              <b><a href="#projects" target="_blank">Projects</a></b>
+            </li>
+            <li class="bi bi-tools">
+              <b><a href="#skills" target="_blank">Skills</a></b>
+            </li>
+          </ul>
+        </nav>
+      </div>     
     </header>
-    <section>
-      <main>
-        <iframe
-           name="youtube" frameborder="0"></iframe>
-      </main>
-    </section>
+
+    <main>
+        <section id="home">
+          <figure class="text-dark">
+              <img src="/public/images/pic2.png" height="600" width="700" alt="">
+              <!-- <figcaption>Harsh Bharwani</figcaption> -->
+          </figure>
+          
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
